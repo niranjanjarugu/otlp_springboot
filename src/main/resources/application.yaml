@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: otlp_springboot2
+grafana:
+  otlp:
+    onprem:
+      endpoint: http://localhost:4317
+      protocol: grpc

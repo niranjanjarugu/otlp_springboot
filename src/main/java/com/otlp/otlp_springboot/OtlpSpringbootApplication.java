@@ -1,0 +1,13 @@
+package com.otlp.otlp_springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class OtlpSpringbootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(OtlpSpringbootApplication.class, args);
+	}
+
+}
